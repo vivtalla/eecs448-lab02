@@ -118,6 +118,7 @@ bool LinkedList<T>::removeBack()
 	}
 	else
 	{
+		temp = m_front;
 		while(temp->getNext()->getNext() != nullptr)
 		{
 			temp = temp->getNext();
